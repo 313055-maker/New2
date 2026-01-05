@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+.title > .item1{
+    font-size: 100px;
+
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: sticky;
+    top: 0px;
+
+    border: solid 2px yellow;
+    background-color: orange;
+}
+.container > .item2 {
+    font-size: 50px;
+}
+.container > .box {
+    border: solid 3px blue;
+}
+.container > .box > .item3 {
+    font-size: 50px;
+    margin: 10px;
+    border: solid 2px red;
+
+    display: flex;
+    justify-content: space-around;
+}
